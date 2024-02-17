@@ -1,17 +1,22 @@
 // import Accordion from "./components/accordion";
-import "./App.css";
-import RandomColor from "./components/random-color";
+// import RandomColor from "./components/random-color";
+import StarRating from "./components/star-rating";
 
-function App() {
+import "./App.css";
+
+const App = () => {
   return (
     <div className="App">
       {/*Accordion Component */}
       {/* <Accordion /> */}
 
       {/* {Random Color Component} */}
-      <RandomColor />
+      {/* <RandomColor /> */}
+
+      {/* {Star Rating Component} */}
+      <StarRating noOfStars={10} />
     </div>
   );
-}
+};
 
 export default App;
