@@ -4,6 +4,7 @@
 import ImageSlider from "./components/image-slider";
 
 import "./App.css";
+import LoadMoreData from "./components/load-more-data";
 
 const App = () => {
   return (
@@ -18,11 +19,14 @@ const App = () => {
       {/* <StarRating noOfStars={10} /> */}
 
       {/* {Image Slider Component} */}
-      <ImageSlider
+      {/* <ImageSlider
         url={"https://picsum.photos/v2/list"}
         limit={"10"}
         page={"1"}
-      />
+      /> */}
+
+      {/* {Load More Data Component} */}
+      <LoadMoreData />
     </div>
   );
 };
