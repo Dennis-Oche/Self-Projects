@@ -1,10 +1,12 @@
 // import Accordion from "./components/accordion";
 // import RandomColor from "./components/random-color";
 // import StarRating from "./components/star-rating";
-import ImageSlider from "./components/image-slider";
+// import ImageSlider from "./components/image-slider";
+// import LoadMoreData from "./components/load-more-data";
+import TreeView from "./components/tree-view";
 
 import "./App.css";
-import LoadMoreData from "./components/load-more-data";
+import menus from "./components/tree-view/data";
 
 const App = () => {
   return (
@@ -26,7 +28,10 @@ const App = () => {
       /> */}
 
       {/* {Load More Data Component} */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
+
+      {/* {Tree View Component / Menu UI Component / Recursive Navigation Menu Component} */}
+      <TreeView menus={menus} />
     </div>
   );
 };
