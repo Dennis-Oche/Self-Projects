@@ -3,10 +3,12 @@
 // import StarRating from "./components/star-rating";
 // import ImageSlider from "./components/image-slider";
 // import LoadMoreData from "./components/load-more-data";
-import TreeView from "./components/tree-view";
+// import TreeView from "./components/tree-view";
+// import menus from "./components/tree-view/data";
+// import QRCodeGenerator from "./components/qr-code-generator";
+import LightDarkMode from "./components/light-dark-mode-switch";
 
 import "./App.css";
-import menus from "./components/tree-view/data";
 
 const App = () => {
   return (
@@ -31,7 +33,13 @@ const App = () => {
       {/* <LoadMoreData /> */}
 
       {/* {Tree View Component / Menu UI Component / Recursive Navigation Menu Component} */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
+
+      {/* QR Code Generator Component */}
+      {/* <QRCodeGenerator /> */}
+
+      {/* Light/Dark Mode Switch Component */}
+      <LightDarkMode />
     </div>
   );
 };
